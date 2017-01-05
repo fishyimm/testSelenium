@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
-
+# test on 05/01/2016
 # send_keys work with fire fox version 44 but more than this might be not work
 # send_keys doesnt work on chrome latest version
 driver = webdriver.Firefox() # add driver in the same path of your .py you can call this function without add location parameter such as "C:\\Users\\User\\Downloads\\geckodriver.exe"
